@@ -1,5 +1,5 @@
 public class MemberDTO {
-	public String name;
+	private String name;
 	public String phone;
 	public String email;
 
@@ -23,5 +23,9 @@ public class MemberDTO {
 		this.name = name;
 		this.phone = phone;
 		this.email = email;
+	}
+
+	public String getName() { // 조회용
+		return name;
 	}
 }
